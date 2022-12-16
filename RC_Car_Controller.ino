@@ -1,6 +1,6 @@
 /*MODIFIED version of code from how to mechatronics
-CREDIT 
-https://www.youtube.com/@HowToMechatronics/featured
+make sure you have the libraries installed and pins 
+CREDIT:https://www.youtube.com/@HowToMechatronics/featured
 */
 #include <SPI.h>
 #include <nRF24L01.h>

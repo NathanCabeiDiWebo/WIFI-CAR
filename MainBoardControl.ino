@@ -34,11 +34,11 @@ int motorSpeedA, motorSpeedB = 0;
 void setup() {
 //Motor variable setup
   pinMode(ENA, OUTPUT);
-  pinMode(IN1,OUTPUT);
-  pinMode(IN2,OUTPUT);
-  pinMode(IN3,OUTPUT);
-  pinMode(IN4,OUTPUT);
-  pinMode(ENB,OUTPUT);
+  pinMode(IN1, OUTPUT);
+  pinMode(IN2, OUTPUT);
+  pinMode(IN3, OUTPUT);
+  pinMode(IN4, OUTPUT);
+  pinMode(ENB, OUTPUT);
   
   //Wifi module setup
   Serial.begin(9600);
@@ -74,7 +74,7 @@ void loop() {
   }
   else if (yAxis > 550) {
     //turn red ligths off if on
-    digitalWrite(redLED,HIGH);
+    digitalWrite(redLED, HIGH);
     // Set Motor 1 forward
     digitalWrite(IN1, LOW);
     digitalWrite(IN2, HIGH);
