@@ -1,2 +1,3 @@
 # WIFI-CAR
-RC Car controlled by wifi module
+homemade RC Car controlled by wifi module
+thats about it lmao
