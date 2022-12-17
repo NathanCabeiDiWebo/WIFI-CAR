@@ -126,6 +126,6 @@ void loop() {
   if (motorSpeedB < 70) {
     motorSpeedB = 0;
   }
-  analogWrite(enA, motorSpeedA); // Send PWM signal to motor A
-  analogWrite(enB, motorSpeedB); // Send PWM signal to motor B
+  analogWrite(ENA, motorSpeedA); // Send PWM signal to motor A
+  analogWrite(ENB, motorSpeedB); // Send PWM signal to motor B
 }
